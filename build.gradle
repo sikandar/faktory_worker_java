@@ -1,0 +1,23 @@
+plugins {
+    id 'org.asciidoctor.convert' version '2.4.0'
+    id 'java'
+    id 'maven'
+}
+
+group = 'com.github.sikandar'
+description = 'Faktory Worker'
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation 'io.mockk:mockk:1.9'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    testCompile 'junit:junit:4.12'
+    testCompile 'com.github.stefanbirkner:system-rules:1.19.0'
+
+}
