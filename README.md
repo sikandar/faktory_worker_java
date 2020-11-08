@@ -1,5 +1,7 @@
 # FaktoryWorker for Java
 (Continue improvements, but curenlty it is production ready)
+- Java 1.8+
+- Gradle 6.4.1
 
 This library will handle the communication between JVM languages to [Faktory](http://contribsys.com/faktory/).
 
