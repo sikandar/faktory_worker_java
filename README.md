@@ -17,6 +17,6 @@ It will allows you to push and consume Faktory jobs to process based on Queue an
   client.push(job);
 ```
 
-#####Support Contact
+####Support Contact
 * Email:  'mysialkot@gmail.com'
 * LinkedIn: sikandar-ali
